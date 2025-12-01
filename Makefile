@@ -16,7 +16,7 @@ install:
 	.venv/bin/pip install -r requirements.txt
 
 start:
-	.venv/bin/python index.py
+	.venv/bin/python .src/index.py
 
 clean:
 	rm -rf .venv
