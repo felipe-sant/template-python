@@ -21,3 +21,4 @@ start:
 clean:
 	rm -rf .venv
 	rm -rf __pycache__
+	rm -rf .pytest_cache
